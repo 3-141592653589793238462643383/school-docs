@@ -1,6 +1,6 @@
 ---
-title: Introduction
-description: Docs intro
+title: Overview
+description: Overview for English exercises
 layout: ../../layouts/MainLayout.astro
 ---
 

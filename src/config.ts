@@ -1,6 +1,6 @@
 export const SITE = {
-  title: 'Your Documentation Website',
-  description: 'Your website description.',
+  title: 'My school exercises',
+  description: 'A website for my school exercises.',
   defaultLanguage: 'en_US',
 };
 
@@ -14,6 +14,7 @@ export const OPEN_GRAPH = {
 
 export const KNOWN_LANGUAGES = {
   English: 'en',
+  Danish: 'dk',
 };
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
@@ -32,12 +33,21 @@ export const KNOWN_LANGUAGES = {
 export const SIDEBAR = {
   en: [
     { text: '', header: true },
-    { text: 'Section Header', header: true },
-    { text: 'Introduction', link: 'en/introduction' },
-    { text: 'Page 2', link: 'en/page-2' },
-    { text: 'Page 3', link: 'en/page-3' },
+    { text: 'Info', header: true },
+    { text: 'Overview', link: 'en/overview' },
 
-    { text: 'Another Section', header: true },
-    { text: 'Page 4', link: 'en/page-4' },
+    { text: 'Exercises', header: true },
+    { text: 'Law And Order', link: 'en/2021/lawandorder' },
+
+    { text: 'Other subjects', header: true },
+    { text: 'Dansk', link: 'dk/overview' },
+  ],
+  dk: [
+    { text: '', header: true },
+    { text: 'Info', header: true },
+    { text: 'Oversigt', link: 'dk/overview'},
+
+    { text: 'Andre fag', header: true },
+    { text: 'English', link: 'en/overview' },
   ],
 };
