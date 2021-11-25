@@ -47,6 +47,9 @@ export const SIDEBAR = {
     { text: 'Info', header: true },
     { text: 'Oversigt', link: 'dk/overview'},
 
+    { text: 'Opgaver', header: true },
+    { text: 'Placeholder', link: 'dk/2021/placeholder' },
+
     { text: 'Andre fag', header: true },
     { text: 'English', link: 'en/overview' },
   ],
