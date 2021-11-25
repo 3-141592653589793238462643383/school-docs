@@ -14,7 +14,8 @@ layout: ../../../layouts/MainLayout.astro
 
 #### Reasons for choosing this topic
 
-- I know something about it
+1. I know something about it
+2. ↟Look↟above↟
 
 #### Keywords
 
