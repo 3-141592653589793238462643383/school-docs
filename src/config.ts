@@ -15,10 +15,11 @@ export const OPEN_GRAPH = {
 export const KNOWN_LANGUAGES = {
   English: 'en',
   Danish: 'dk',
+  Math: 'mt',
 };
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
-// export const GITHUB_EDIT_URL = `https://github.com/withastro/astro/blob/main/docs/`;
+export const GITHUB_EDIT_URL = `https://github.com/3-141592653589793238462643383/school-docs/blob/master/`;
 
 // Uncomment this to add an "Join our Community" button to every page of documentation.
 // export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
@@ -41,6 +42,7 @@ export const SIDEBAR = {
 
     { text: 'Other subjects', header: true },
     { text: 'Dansk', link: 'dk/overview' },
+    { text: 'Matematik', link: 'mt/overview' },
   ],
   dk: [
     { text: '', header: true },
@@ -52,5 +54,18 @@ export const SIDEBAR = {
 
     { text: 'Andre fag', header: true },
     { text: 'English', link: 'en/overview' },
+    { text: 'Matematik', link: 'mt/overview' },
+  ],
+  mt: [
+    { text: '', header: true },
+    { text: 'Info', header: true },
+    { text: 'Oversigt', link: 'mt/overview'},
+
+    { text: 'Opgaver', header: true },
+    { text: 'Placeholder', link: 'mt/2021/placeholder' },
+
+    { text: 'Andre fag', header: true },
+    { text: 'English', link: 'en/overview' },
+    { text: 'Dansk', link: 'dk/overview' },
   ],
 };
