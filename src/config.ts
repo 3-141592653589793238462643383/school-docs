@@ -16,6 +16,7 @@ export const KNOWN_LANGUAGES = {
   English: 'en',
   Danish: 'dk',
   Math: 'mt',
+  Science: 'sc',
 };
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
@@ -43,6 +44,7 @@ export const SIDEBAR = {
     { text: 'Other subjects', header: true },
     { text: 'Dansk', link: 'dk/overview' },
     { text: 'Matematik', link: 'mt/overview' },
+    { text: 'Fysik Kemi', link: 'sc/overview'},
   ],
   dk: [
     { text: '', header: true },
@@ -55,6 +57,7 @@ export const SIDEBAR = {
     { text: 'Andre fag', header: true },
     { text: 'English', link: 'en/overview' },
     { text: 'Matematik', link: 'mt/overview' },
+    { text: 'Fysik Kemi', link: 'sc/overview'},
   ],
   mt: [
     { text: '', header: true },
@@ -70,6 +73,22 @@ export const SIDEBAR = {
 
     { text: 'Andre fag', header: true },
     { text: 'English', link: 'en/overview' },
+    { text: 'Dansk', link: 'dk/overview' },
+    { text: 'Fysik Kemi', link: 'sc/overview'},
+  ],
+  sc: [
+    { text: '', header: true },
+    { text: 'Info', header: true },
+    { text: 'Oversigt', link: 'sc/overview'},
+
+    { text: 'Opgaver', header: true },
+    { text: 'Placeholder', link: 'sc/2021/placeholder' },
+    { text: '2.3 Atomer Elektron Struktur 1', link: 'sc/2021/2.3AtomerElektronStruktur1' },
+    { text: '2.4 Grundstoffernes Periodiske System 1', link: 'sc/2021/2.4GrundstoffernesPeriodiskeSystem1' },
+
+    { text: 'Andre fag', header: true },
+    { text: 'English', link: 'en/overview' },
+    { text: 'Matematik', link: 'mt/overview' },
     { text: 'Dansk', link: 'dk/overview' },
   ],
 };
