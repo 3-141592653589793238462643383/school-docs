@@ -62,7 +62,11 @@ export const SIDEBAR = {
     { text: 'Oversigt', link: 'mt/overview'},
 
     { text: 'Opgaver', header: true },
-    { text: 'Placeholder', link: 'mt/2021/placeholder' },
+    { text: 'FP9 03 12 2019', link: 'mt/2021/FP9_03_12_2019' },
+    { text: 'Færdighed 2020 2', link: 'mt/2021/Faerdighed2020-2' },
+    { text: 'Find et antal procent af 25 05 2021', link: 'mt/2021/FindEtAntalProcentAf25_05_2021' },
+    { text: 'Opgave ark 1', link: 'mt/2021/OpgArk1' },
+    { text: 'Opgave ark 2', link: 'mt/2021/OpgArk2' },
 
     { text: 'Andre fag', header: true },
     { text: 'English', link: 'en/overview' },
