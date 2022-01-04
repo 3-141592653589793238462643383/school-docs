@@ -82,7 +82,6 @@ export const SIDEBAR = {
     { text: 'Oversigt', link: 'sc/overview'},
 
     { text: 'Opgaver', header: true },
-    { text: 'Placeholder', link: 'sc/2021/placeholder' },
     { text: '2.3 Atomer Elektron Struktur 1', link: 'sc/2021/2.3AtomerElektronStruktur1' },
     { text: '2.4 Grundstoffernes Periodiske System 1', link: 'sc/2021/2.4GrundstoffernesPeriodiskeSystem1' },
 
